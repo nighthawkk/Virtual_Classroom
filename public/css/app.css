@@ -1,0 +1,225 @@
+body{
+    color: #58666e;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+p,span,a{
+    font-weight: 500;
+}
+.navbar{
+	margin-bottom: 0px;
+	height: 100px;
+}
+.navbar-form .form-control.input-sm.bg-light {
+    min-width: 500px;
+}
+.container.topnav {
+    font-size: 17px;
+    padding-top: 15px;
+}
+.single-course-box .item.text-center.bg-white:hover {
+    box-shadow: 2px 1px 2px #47C1E3;
+}
+.bg-info {
+    background-color: #23b7e5;
+    /*color: white; */
+}
+/*.bg-dark h1 {
+    color: black;
+}*/
+/*.bg-dark p, .bg-dark a {
+    color: #332600;
+}*/
+.single-course-public.img-full {
+    max-height: 500px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.img-info.img-bg::after {
+    background-color: #3a3f51 !important;
+}
+
+#vid-thumb video {
+    display: block !important;
+    margin: auto !important;
+    width: 70% !important;
+}
+#vid-box > video {
+    display: block;
+    float: left;
+    margin-right: 25px;
+    margin-top: 25px;
+    width: 15% !important;
+}
+.video2 {
+    display: block;
+    margin-bottom: 50px;
+    max-height: 158px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.bg-dark {
+    background-color: #23b7e5;
+    color: #d9f3fb !important; 
+    position: relative;
+    top: 50px;
+}
+.class-elements .bg-dark{
+    top:0px;
+}
+.p-t-xxl {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.col-md-3{
+    margin-bottom: 25px;
+}
+.bg-info {
+    background-color: white;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.05);
+    color: #332600;
+}
+.bg-info a {
+    color: #332600; 
+}
+/*.bg-dark h1 {
+    color: #332600;
+}*/
+
+.bg-info.content {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+/*.form-control , textarea {
+    border-color: #23b7e5;
+}*/
+/*.note-editor.note-frame {
+    border: 1px solid #23b7e5;
+}*/
+.navbar-form .form-control.input-sm.bg-light {
+    border-color: transparent !important;
+}
+.create-course-teacher .form-control, .create-course-teacher textarea, .note-editor, .send-message-form .form-control , .send-message-form textarea.form-control {
+    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
+}
+footer.bg-dark {
+    padding: 0;
+    background: #3A3F51 !important;
+}
+footer .container .row.m-t-md {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+/*** Remove the image and video inserting ***/
+.note-insert button + button {
+    display: none !important;
+}
+.single-course-box .item.text-center.bg-info {
+    max-height: 385px;
+    min-height: 385px;
+}
+.top-image.course-image > img {
+    max-height: 160px;
+    width: 100%;
+}
+
+
+
+/**** Message ***********/
+.s_title, .t_title{
+    display: none;
+}
+.left-users h3:first-of-type, .left-users h4:first-of-type {
+    display: block;
+    text-align: center;
+}
+
+/************************ Course Page ***********************/
+.top-image.course-image > img {
+    width: 100%;
+}
+.course-image-single .item.img-bg.img-info {
+    margin-bottom: 50px;
+    max-height: 300px;
+    object-fit: contain;
+    width: 100%;
+}
+.row.p-t-xxl.bg-info.content {
+    padding: 30px;
+}
+.course-title{
+    margin-top: 50px;
+}
+.img-small {
+    max-width: 100px;
+}
+
+.enroll-btn .form-control.pull-right.btn.btn-primary {
+    max-width: 200px;
+}
+.single-course-box .w-full.p-h-xxl.p-v-lg {
+    padding-top: 0;
+}
+
+.course-course-title {
+    padding: 8px 10px 0;
+}
+
+/************************* Profile *************************/
+.user-image-frame {
+    text-align: center;
+}
+.user-image-frame .img-full{
+    max-width: 300px;
+}
+
+.thumb-sm .label {
+    border-radius: 0.25em;
+    color: #fff;
+    display: inline;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0.4em 0.2em 0.3em;
+    position: absolute;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+/***************************** Messages ********************/
+.teacher-section, .student-section {
+    padding: 10px;
+}
+.reply-form .form-control {
+    margin: 0 !important;
+    padding: 0;
+}
+.reply-form .col-md-11.col-md-offset-1 {
+    padding-left: 0;
+}
+
+/********************************* Forum **********************/
+.forum .form-control {
+    background: #edf1f2;
+}
+
+
+
+
+
+
+
+
+
+/********************************** Responsive ******************************/
+@media only screen and ( max-width: 767px){
+    .navbar-form .form-control.input-sm.bg-light {
+        min-width: 250px;
+    }
+}
