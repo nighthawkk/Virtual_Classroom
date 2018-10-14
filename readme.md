@@ -12,7 +12,7 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 
 ## Official Documentation
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs)
 
 ## Contributing
 
